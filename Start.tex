@@ -1,0 +1,18 @@
+\documentclass[12pt,a4paper]{article}
+\begin{document}
+\begin{center}
+{\LARGE Comb filter}
+\end{center}
+In signal processing, a comb filter adds a delayed version of a signal to itself, causing constructive and destructive interference. The frequency response of a comb filter consists of a series of regularly spaced notches, giving the appearance of a comb.
+\section{\Large Applications}
+Comb filters are used in a variety of signal processing applications. These include:
+\begin{itemize}
+\item Cascaded integrator–comb (CIC) filters, commonly used for anti-aliasing during interpolation and decimation operations that change the sample rate of a discrete-time system.
+\item 2D and 3D comb filters implemented in hardware (and occasionally software) for PAL and NTSC television decoders. The filters work to reduce artifacts such as dot crawl.
+\item Audio effects, including echo, flanging, and digital waveguide synthesis. For instance, if the delay is set to a few milliseconds, a comb filter can be used to model the effect of acoustic standing waves in a cylindrical cavity or in a vibrating string.
+\item In astronomy the astro-comb promises to increase the precision of existing spectrographs by nearly a hundredfold.
+\end{itemize}
+In acoustics, comb filtering can arise in some unwanted ways. For instance, when two loudspeakers are playing the same signal at different distances from the listener, there is a comb filtering effect on the signal.[1] In any enclosed space, listeners hear a mixture of direct sound and reflected sound. Because the reflected sound takes a longer path, it constitutes a delayed version of the direct sound and a comb filter is created where the two combine at the listener.
+\section{\Large Technical discussion}
+Comb filters exist in two different forms, feedforward and feedback; the names refer to the direction in which signals are delayed before they are added to the input.\\Comb filters may be implemented in discrete time or continuous time; this article will focus on discrete-time implementations; the properties of the continuous-time comb filter are very similar.
+\end{document}
